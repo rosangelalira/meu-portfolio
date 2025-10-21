@@ -1,0 +1,4 @@
+.projects {
+  background-color: $gray-light;
+  .project-grid { display: grid; gap: $spacing-md; grid-template-columns: 1fr; }
+}

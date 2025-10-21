@@ -1,0 +1,15 @@
+.header {
+  background-color: $primary-color;
+  padding: $spacing-sm;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+
+
+  .nav { @include flex-center(row); justify-content: space-between; }
+
+
+  .nav-list { display: none; }
+  .menu-toggle { display: block; }
+}
